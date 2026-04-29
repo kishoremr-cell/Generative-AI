@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "description": "Login with valid credentials",
+        "keywords": ["login", "authentication", "valid"],
+        "steps": ["Enter username", "Enter password", "Click login"],
+        "expected": "User logged in successfully"
+    },
+    {
+        "id": 2,
+        "description": "Login with invalid password",
+        "keywords": ["login", "authentication", "invalid", "negative"],
+        "steps": ["Enter username", "Enter wrong password", "Click login"],
+        "expected": "Error message displayed"
+    },
+    {
+        "id": 3,
+        "description": "Boundary value for age input (min 18)",
+        "keywords": ["boundary", "age", "input", "edge"],
+        "steps": ["Enter age 17", "Submit form"],
+        "expected": "Validation error"
+    },
+    {
+        "id": 4,
+        "description": "Equivalence partitioning for search input",
+        "keywords": ["equivalence", "search", "partitioning"],
+        "steps": ["Enter valid search term", "Click search"],
+        "expected": "Results displayed"
+    }
+]

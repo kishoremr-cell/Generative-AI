@@ -1,0 +1,14 @@
+[
+    {
+        "topic": "Boundary Value Analysis",
+        "content": "Boundary Value Analysis (BVA) is a black-box testing technique that focuses on the boundaries of input domains. It involves testing at the edges of equivalence classes. For example, if a field accepts values from 1 to 100, test with 0, 1, 2, 99, 100, 101."
+    },
+    {
+        "topic": "Equivalence Partitioning",
+        "content": "Equivalence Partitioning is a software testing technique that divides the input data of a software unit into valid and invalid partitions. Test cases are designed to cover each partition at least once. This reduces the number of test cases while maintaining test coverage."
+    },
+    {
+        "topic": "Test Case Generation",
+        "content": "Test case generation involves creating scenarios to validate software functionality. Include positive tests (expected behavior), negative tests (error handling), and edge cases (boundary conditions). Use techniques like BVA and EP for systematic generation."
+    }
+]
